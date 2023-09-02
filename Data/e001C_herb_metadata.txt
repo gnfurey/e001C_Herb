@@ -1,0 +1,51 @@
+Tradeoffs between deer herbivory and nitrogen competition alter grassland forb composition
+George N. Furey and David Tilman
+Corresponding author:
+george.neil.furey@nmbu.no
+Dr. George Neil Furey, PhD
+https://orcid.org/0000-0003-0120-9706
+Postdoctoral Fellow
+Faculty of Environmental Sciences and Natural Resource Management 
+Norwegian University of Life Sciences
+Universitetstunet 3, 1433 Ås, Norway 
+
+
+This readME describes the metadata of available files. These files are derived data sources from raw data files available on EDI for e001. The metadata has all been recorded with the data manager, but I am providing these details here as a backup.
+#
+data_e001herbivory_herb_meta.csv
+Counts of white-tailed deer florivory
+YEAR	Year
+Month	Month of the year
+exp	Cedar Creek Experimental Number
+Field	e001 Field designation
+Plot	Plot designation
+NTrt	Nutrient Addition Treatment
+NAdd	Nitrogen addition
+Fenced	Fencing designation
+Species	Species 8 letter e001 Species designation first four letters of genus and first four of species
+Herb	Count of deer herbivory on inflorescences per species
+Count	Count of inflorescences per species
+#
+data_e001herbivory_allNTrt.csv
+Plant species abundance and aggregate variables
+Year	Year
+Plot	Plot designation
+NAdd	Nitrogen addition
+ln.NAtm.NAdd	The natural log of NAdd
+NTrt	Nutrient Addition Treatment
+sr	species richness: The total number of herbaceous species 	counted in each plot
+TotBio	The sum of herbaceous species biomass excluding moss and 	lichens, misc. litter and all woody species 
+Fenced	Fencing designation: 1 Fenced/0 Unfenced starts in 2005
+FTrt	An additional fencing designation that goes to 1982. n.b. the 	fencing treatment does not start until 2005	
+Field	e001 Field designation
+exp	Cedar Creek Experimental Number
+	The remaining variables are the species biomass with the first 	letters of their genus and the first four of their species 
+The following derived datasets have the same format they only have the used nitrogen addition treatments
+data_e001herbivory.csv
+data_e001herbivory_l.csv
+#
+e001_fieldC_rowcol.csv
+Row column associations of the field 
+#
+ccesrPlantSpeciesData.csv
+Internal file with species metadata n.b. use with caution
